@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gale.mk
+    $(LOCAL_DIR)/voltage_gale.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gale-user \
-    lineage_gale-userdebug \
-    lineage_gale-eng
+    voltage_gale-user \
+    voltage_gale-userdebug \
+    voltage_gale-eng

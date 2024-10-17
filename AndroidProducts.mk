@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/droidx_gale.mk
+    $(LOCAL_DIR)/aosp_gale.mk
 
 COMMON_LUNCH_CHOICES := \
-    droidx_gale-user \
-    droidx_gale-userdebug \
-    droidx_gale-eng
+    aosp_gale-user \
+    aosp_gale-userdebug \
+    aosp_gale-eng

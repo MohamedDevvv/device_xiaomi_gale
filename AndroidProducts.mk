@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_gale.mk
+    $(LOCAL_DIR)/droidx_gale.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_gale-user \
-    voltage_gale-userdebug \
-    voltage_gale-eng
+    droidx_gale-user \
+    droidx_gale-userdebug \
+    droidx_gale-eng

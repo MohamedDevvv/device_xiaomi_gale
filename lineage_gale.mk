@@ -12,15 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/gale/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_gale
+PRODUCT_NAME := lineage_gale
 PRODUCT_DEVICE := gale
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23106RN0DA
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_USE_QUICKPIC := true
+MATRIXX_MAINTAINER := Mohamed
+MATRIXX_CHIPSET := G85
+MATRIXX_BATTERY := 5000mAh
+MATRIXX_DISPLAY := 720x1600
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

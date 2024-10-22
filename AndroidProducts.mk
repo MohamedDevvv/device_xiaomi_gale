@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gale.mk
+    $(LOCAL_DIR)/orion_gale.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gale-user \
-    lineage_gale-userdebug \
-    lineage_gale-eng
+    orion_gale-user \
+    orion_gale-userdebug \
+    orion_gale-eng

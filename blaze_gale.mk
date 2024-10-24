@@ -12,21 +12,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/gale/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/orion/config/common_full_phone.mk)
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-PRODUCT_NAME := orion_gale
+PRODUCT_NAME := blaze_gale
 PRODUCT_DEVICE := gale
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23106RN0DA
 
-ORION_MAINTAINER := mohamed
-ORION_MAINTAINER_LINK := UNKNOWN
-ORION_BUILD_TYPE := UNOFFICIAL
-ORION_GAPPS := true
-TARGET_ENABLE_BLUR := true
+# Blaze Official Stuff
+BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_MAINTAINER := Mohamed
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_HAS_UDFPS := false
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USE_PIXEL_CHARGER := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GAPPS := true
 
 BUILD_GOOGLE_CONTACTS := true
 BUILD_GOOGLE_DIALER := true

@@ -5,9 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_gale.mk
-
-COMMON_LUNCH_CHOICES := \
-    blaze_gale-user \
-    blaze_gale-userdebug \
-    blaze_gale-eng
+    $(LOCAL_DIR)/orion_gale.mk

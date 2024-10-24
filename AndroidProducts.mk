@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/orion_gale.mk
+    $(LOCAL_DIR)/blaze_gale.mk
 
 COMMON_LUNCH_CHOICES := \
-    orion_gale-user \
-    orion_gale-userdebug \
-    orion_gale-eng
+    blaze_gale-user \
+    blaze_gale-userdebug \
+    blaze_gale-eng
